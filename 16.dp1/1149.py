@@ -5,7 +5,6 @@ input = sys.stdin.readline
 
 n = int(input())
 rgb = []
-before = -1
 
 for i in range(n):
     r, g, b = map(int, input().split())
