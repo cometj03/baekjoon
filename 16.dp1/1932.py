@@ -13,4 +13,3 @@ for i in range(1, n):
         arr[i][j] += max(arr[i-1][j], arr[i-1][j-1])
 
 print(max(arr[n-1]))
-print(arr[n-1])
