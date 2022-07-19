@@ -8,7 +8,7 @@ i = 0
 while i < N - 1:
     length = road[i]
     k = i + 1
-    while price[k] > price[i]:
+    while k < N-1 and price[k] >= price[i]:
         length += road[k]
         k += 1
     cost += length * price[i]
